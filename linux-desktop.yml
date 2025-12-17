@@ -13,9 +13,9 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=America/Santo_Domingo
-      - KEYBOARD=en-us-qwerty
-      - WEBPAGE_TITLE=Ubuntu KDE
+      - TZ=Europe/Madrid 
+      - KEYBOARD=en-es-qwerty
+      - WEBPAGE_TITLE=Ubuntu
       - RESOLUTION=1920x1080
       - SUDO_PASSWORD=123456
       - NOVNC_ENABLE=true
@@ -42,3 +42,4 @@ services:
 volumes:
 
   linux-data:
+
